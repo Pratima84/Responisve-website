@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!DOCTYPE html>
+    <html>
+    
+    <head>
+        <title>Tribute Page</title>
+        <link rel="stylesheet" href="main.css">
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+    </head>
+    
+    <body>
+        <!--NAVBAR STARTING-->
+     <header>
+        <i class='bx bxs-face-mask bx-rotate-180'></i>
+          <nav>
+            <ul class="nav_links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallary">Heros</a></li>
+                <li><a href="#timeline">Timeline</a></li>
+            </ul>
+        </nav>
+
+        <a class="feedback" href="#feedback"><button>feedback</button></a>
+    </header>
+    </body>
+    
+    </html>
+    
+    <div class="main">
+        <section class="cover">
+            <div class="container_img">
+         
+                <!-- Cutout text -->
+                <h1 class="text1">Stan Lee</h1>
+                
+            </div>
+        </section>
+        <section class="about" id="about">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-6 col-sm-6" id="about_details">
+                 <h1>About Stan Lee</h1>
+                 <p>Stan Lee (born Stanley Martin Lieber; December 28, 1922 – November 12, 2018) 
+                  was an American comic book writer, editor, publisher, and producer. He rose through the ranks of a 
+                  family-run business called Timely Publications which would later become Marvel Comics. He was the primary creative leader
+                   for two decades, leading its expansion from a small division of a publishing house to a multimedia corporation that dominated the comics and film industries.
+                  <span id="dots">...</span><span id="more">n collaboration with others at 
+                    Marvel—particularly co-writers/artists Jack Kirby and Steve Ditko—he co-created iconic characters, including superheroes Spider-Man, the X-Men, Iron Man, Thor, the Hulk, Ant-Man, the Wasp, the Fantastic Four, Black Panther, Daredevil, Doctor Strange, the Scarlet Witch, and Black Widow. </span></p>
+                 <button onclick="myFunction()" id="myBtn">Read more</button>
+              </div>
+
+             
+              <div class="col-md-6 col-sm-6" id="about_img" >
+                <div class="container-images">
+                  <img src="https://imgs.search.brave.com/XB2SNDi8F2ik0osZbuQSNycuLox21kvAaUOvN1o3gxU/rs:fit:1024:768:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDMxODgz/NDUuanBn" class="framed" alt="">
+
+                </div>
+              </div>
+              </div>
+              </div>
+        </section>
+        
+      <section class="gallary" id="gallary">
+
+        <div class="container_gallary">
+          <div class="heading">
+            <h3>Superheros By <span>Stan Lee</span></h3>
+          </div>
+          <div class="box">
+
+            <div class="hero">
+              <div href="" class="card">
+                <img class="image" src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2017/03/Spider-Man.jpg?q=50&fit=crop&w=943&dpr=1.5" alt="">
+            
+                <p class="text">
+                  <span>Spider-Man</span><br> Spider-Man is Marvel's most successful
+                  character of all time and the most profitable 
+                  comic book character ever.
+                </p>
+
+              </div>
+
+              <div href="" class="card">
+                <img class="image" src="https://imgs.search.brave.com/3NhGXsHeLancD-6WeqoOR7IJ6QTJUfz5Ed-ZNnZHGdQ/rs:fit:1080:1200:1/g:ce/aHR0cHM6Ly8yLmJw/LmJsb2dzcG90LmNv/bS8tYVFIMFM4ZWNh/Y0UvWE1PNWYyODhE/QUkvQUFBQUFBQUFP/VmsvV1Z0VU1BWkwy/VzRkZE0yWW5XY0ZM/UGdvM281UWExQkN3/Q0xjQkdBcy9zMjU2/MC80ay1pcm9uLW1h/bi0yMDE5LTZlLTEw/ODB4MTkyMC5qcGc" alt="">
+                  <p  class="text">
+                    <span>Iron Man</span> has an interesting
+                    history among fans. These days,
+                    thanks to the MCU and Robert Downey Jr.,
+                    Iron Man is one of the most popular superheroes
+                    in the world, known for his snarky humor and quick wit,
+                    but before "Iron Man" in 2008</p>
+              </div>
+
+              <div href="" class="card">
+                <img class="image" src="https://imgs.search.brave.com/s68ERya6p53mjgeTbjbYMZkkN8OuPijEJmQMfpYzKG8/rs:fit:1167:1200:1/g:ce/aHR0cHM6Ly9pLmV0/c3lzdGF0aWMuY29t/LzI0NzE1MjUwL3Iv/aWwvOGRkOGU3LzI5/Njk1ODAzOTkvaWxf/ZnVsbHhmdWxsLjI5/Njk1ODAzOTlfN3pw/di5qcGc" alt="">
+                <p  class="text">
+                  <span>Thor</span>
+                  Before the commenters get upset, no, Stan Lee was not the
+                  original creator behind the Norse
+                  mythological deity whose earliest 
+                  records date back to the 2nd century.
+                  The guy's only 94 after all. Stan Lee was 
+                  the creator of Marvel's version of the God of
+                  Thunder though, along with his brother Larry Leiber
+                  and artist Jack Kirby. His first appearance was in 
+                  "Journey into Mystery" #83 in 1962 and he went on to become one of the founding members of the Avengers.</p>
+              </div> 
+
+            <div href=""  class="card">
+                <img  class="image" src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2017/03/HULK-1.jpg?q=50&fit=crop&w=943&dpr=1.5" alt="">
+                <p  class="text">
+                <span>Hulk</span>
+                Stan Lee created the Hulk with artist Steve Ditko for his own solo series "The Incredible Hulk," in 1962, which was canceled after just six issues. However, Stan Lee liked the character so much that Hulk began appearing in "Tales to Astonish" frequently until the series was renamed to "The Incredible Hulk" with issue #102.</p>
+            </div> 
+
+            <div href=""  class="card">
+                <img  class="image" src="https://imgs.search.brave.com/2hH1W3uQViCCITJ8I1jPPLqt8ifg7AqX5SzoRjZbV3E/rs:fit:1200:900:1/g:ce/aHR0cHM6Ly9zdGF0/aWMyLmNicmltYWdl/cy5jb20vd29yZHBy/ZXNzL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIwLzA0L2JsYWNr/LXdpZG93LmpwZw" alt="">
+              
+                <p  class="text">
+                  <span>Black Widow</span>
+              Natalia "Natasha" Romanova, the Black Widow, made her first appearance in 1964's "Tales of Suspense" #52, plotted and edited by Stan Lee, scripted by Don Rico and drawn by Don Heck. She was a Russian spy and antagonist of Iron Man</p>
+            </div>  
+          </div>
+
+          <div class="hero">
+
+              <div href="" class="card">
+                <img  class="image" src="https://imgs.search.brave.com/d4stoyLf4rBUoQu9PwkpEwhpAEQptXlzxOYydH5T5Rs/rs:fit:1032:1200:1/g:ce/aHR0cDovL2FsbC1j/b21pYy5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMTYvMTAv/VEFBTlRNQU4yMDE1/MDEzX0RDMjFfTFJf/MS5qcGc" alt="">
+                <p  class="text">
+                  <span>Ant-Man,</span>
+                  Stan Lee created Ant-Man with his
+                brother Larry Leiber and artist Jack Kirby in 1962
+                  for "Tales to Astonish".Ant-Man gets his abilities from 
+                  the Ant-Man suit, which has been worn by different people 
+                  throughout the years,</p>
+
+              </div>
+
+              <div href="" class="card">
+                <img class="image" src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2017/02/MCU-Quiz-Doctor-Strange.jpg?q=50&fit=crop&w=943&dpr=1.5" alt="">
+                <p class="text">
+                  <span>Doctor Strange,</span>
+                  Doctor Stephen Strange, Sorcerer Supreme, was created by Stan Lee and artist Steve Ditko in 1963 as a way to bring a different kind of character and themes of mysticism to Marvel Comics. Stan Lee actually attributes the original creation of Doctor Strange more to Ditko, who wrote and drew a five-page filler story in "Strange Tales" </p>
+
+              </div>  
+
+              <div href="" class="card">
+                <img class="image" src="https://imgs.search.brave.com/piiw8rtWzE7tqBInLfeTuNpWadMz8n68OJMtKciNWBc/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pLmFu/bmloaWwudXMvdS9w/cm9kL21hcnZlbC9p/L21nLzkvMjAvNGNk/OWMzYjAwNjRlNi9j/bGVhbi5qcGc" alt="">
+                <p class="text">
+                  <span>Hawkeye,</span>
+                  Stan Lee created Hawkeye with artist Don Heck as a villain for "Tales of Suspense".Hawkeye has been an important character in the Marvel universe as one of the few deaf superheroes in mainstream comics when he lost his hearing in the 1983 four-issue "Hawkeye" miniseries written and drawn by Mark Gruenwald.</p>
+
+
+              </div>
+              <div href="" class="card">
+                <img class="image" src="https://i.annihil.us/u/prod/marvel/i/mg/f/b0/5afc7ec776ea2/clean.jpg" alt="">
+                <p class="text">
+                  <span>Black Panther</span>
+                was the first black superhero in mainstream American comic book history, first appearing in "Fantastic Four".
+                  He's one of the smartest, richest and most deadly humans in the Marvel universe. Though many people associate the character's name with the Black Panther party, the character's debut actually predates their founding by three months. 
+                </p>
+              
+              </div>
+            
+
+          </div>
+
+            <div class="hero">
+              <div href="" class="card">
+                <img class="image" src="https://imgs.search.brave.com/TgnFvUJK_S7lZpuGRdWpZ_CQRgGIqDf6YfOKHWeEH7c/rs:fit:638:1136:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2YyL2Vi/L2E3L2YyZWJhN2Q4/OWZkMDQyNDdjNDBi/OTk1ZTBhNDE4ZDJi/LmpwZw" alt="">
+                <p class="text">
+                  <span>Nick Fury</span>
+                  Mainstream audiences know Nick Fury as the man who assembled the Avengers in the MCU, played by Samuel L. Jackson, but he's been around since 1963 and he started off headlining his own series in "Sgt. Fury and His Howling Commandos." His first book was a World War II combat series, but the character was brought into the "modern day" a few months later in "Fantastic Four" #21, as a CIA agent and spy who would go on to be the director of S.H.I.E.L.D.</p>
+
+
+              </div>
+              <div href="" class="card">
+                <img  class="image" src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2017/03/Inhumans-Header.jpg?q=50&fit=crop&w=943&dpr=1.5" alt="">
+                <p  class="text">
+                  <span>Inhuman</span>
+                spent most of their existence in relative obscurity compared to the rest of the Marvel universe, but Stan Lee and Jack Kirby introduced them way back in 1965 in "Fantastic Four" </p>
+
+              
+              </div>
+              <div href="" class="card">
+                <img class="image"  src="https://imgs.search.brave.com/3L9LvEFRpbORsDsj44ZC-lOZRKxxmQoItrePFyONeO4/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pLmtp/bmphLWltZy5jb20v/Z2F3a2VyLW1lZGlh/L2ltYWdlL3VwbG9h/ZC90X29yaWdpbmFs/L3Zudmt1dDBzeGJr/M2Z6czdlaXZ6Lmpw/Zw" alt="">
+                <p  class="text">
+                  <span>Scarlet Witch</span>
+                  "He's fast and she's weird." Scarlet Witch and her twin brother, Quicksilver, started off as villains to the X-Men in the Brotherhood of Evil Mutants, but after Magneto is captured by the Stranger, they consider their debt to him paid and go on to fight alongside the Avengers.</p>
+
+              </div>
+              <div href="" class="card">
+              <img class="image" src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2017/02/Daredevil-2.jpg" alt="">
+              <p  class="text">
+                <span>DareDevil</span>
+                Stan Lee created "The Man Without Fear" with artist Bill Everett for "Daredevil" #1 in 1964. He was the first disabled superhero to carry his own solo series and has been an extremely popular character from the very beginning.</p>
+              </div>
+
+              <div href="" class="card">
+                <img class="image" src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2017/03/Fantastic-Four.jpg?q=50&fit=crop&w=943&dpr=1.5" alt="">
+                <p  class="text">
+                  <span>Fantastic Four</span>
+                  The Fantastic Four were Stan Lee's first creation with artist Jack Kirby and they were an instant success for Marvel. With their 1961 debut in "Fantastic Four" </p>
+                </div>
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </section>
+
+      <section class="timeline-section" id="timeline">
+        <h1>Life of Stan Lee</h1>
+        <div class="timeline-items">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">December 28, 1922</div>
+            <div class="timeline-content">
+              <h3>Stan is born</h3>
+              <p>Stan Lee,Stanley Martin Lieber was born on December 28, 1922. He was an American comic book writer, editor, publisher, and producer.</p>
+              </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">MAY 3, 1939</div>
+            <div class="timeline-content">
+              <h3>Stan's time at Timely comics</h3>
+                  <p>At only age 17, Stan is hired as, he liked to joke, a "gopher" for Timely Comics Inc. Stan's job was to bring paint for empty containers, fetch the CEO's lunch and to wait for the next complaint from the artists. In 1940, Timely creates the star spangled hero, Captain America because of the opposing threat of the Nazis. One day, the artists get so mad with each other that they quit, including the editor. In 1941, Stan is hired as the editor for Timely at only age 19!</p>
+              </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">NOV 23, 1941</div>
+            <div class="timeline-content">
+              <h3>Captain America Issue</h3>
+                <p>Stan first started working on comics in 1941, beginning with the third issue of Captain America.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">JAN 11, 1942</div>
+            <div class="timeline-content">
+              <h3>Stan goes to war</h3>
+              <p>Stan is enlisted in World War 2. Surprisingly, he does not fight with a weapon. He fights with cartoons! Stan draws funny cartoons to cheer up soldiers and give hope to family's. When the war is over, Stan returns home.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">DEC 5, 1947</div>
+            <div class="timeline-content">
+              <h3>Stan gets married</h3>
+              <p>Stan gets married to a British woman named Joan in 1947.</p>
+              </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">AUG 29, 1950</div>
+            <div class="timeline-content">
+              <h3>Joan Celia Lee</h3>
+              <p>Joan and Stan had their first child, a baby girl they named Joan Celia, who later took the nickname, J.C.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+          <div class="timeline-date">NOV 6, 1961</div>
+            <div class="timeline-content">
+              <h3>Stan creates The Fantastic Four</h3>
+              <p>After having two children, Joan Celia Lee and Jan Lee (who died only a week after birth), Stan decides to think of new creative ideas for new heroes. This eventually leads up to the creation of The Fantastic Four in the month of November, 1961.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">MAY 3, 1962</div>
+            <div class="timeline-content">
+              <h3>Spider-Man is born</h3>
+              <p>After creating other small super heroes, Stan decides to create a new kind of superhero. That was when Stan saw a fly crawling on the wall and thought of an insect superhero. He went down the list. Fly-Man, that didn't sound dramatic. Mosquito-Man, Nah, that sounded bad. He kept going until he got to Spider-Man. He LOVED that name! He ran into the publishers office and told him his grand idea. His publisher didn't like it and Stan decided to put it an old magazine to get it to go away.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">JAN 1, 1980</div>
+            <div class="timeline-content">
+              <h3>The Marvel Age</h3>
+              <p>Over 20 years, Stan makes heroes like Doctor Strange, The Hulk, Iron Man, Thor, Daredevil, The X-men and more.</p>
+            </div>
+          </div>
+        
+        </div>
+      </section>
+
+      <section class="feedback" style="padding: 5%;" id="feedback">
+        <div class="container">
+          <div class="row">
+              <h1>Feedback</h1>
+          </div>
+          <div class="row">
+              <h4 style="text-align:center">We'd love to hear from you!</h4>
+          </div>
+          <div class="row input-container">
+              <div class="col-xs-12">
+                <div class="styled-input wide">
+                  <input type="text" required />
+                  <label>Name</label> 
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <div class="styled-input">
+                  <input type="text" required />
+                  <label>Email</label> 
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <div class="styled-input" style="float:right;">
+                  <input type="text" required />
+                  <label>Phone Number</label> 
+                </div>
+              </div>
+              <div class="col-xs-12">
+                <div class="styled-input wide">
+                  <textarea required></textarea>
+                  <label>Message</label>
+                </div>
+              </div>
+              <div class="col-xs-12">
+                <div class="btn-lrg submit-btn">Send Message</div>
+              </div>
+          </div>
+        </div>
+        
+      </section>
+    </div>
+    
+<script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+
+    </script>
+    
+</body>
+</html>
